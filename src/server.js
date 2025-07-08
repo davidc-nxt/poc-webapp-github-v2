@@ -59,4 +59,4 @@ server.listen(port, () => {
   console.log(`GITHUB GitOps POC server running on port ${port}`);
   console.log(`Commit: ${process.env.COMMIT_SHA || 'unknown'}`);
   console.log(`Image: ${process.env.IMAGE_NAME || 'unknown'}`);
-}); 
+}); // Updated: Tue Jul  8 10:30:15 EDT 2025
