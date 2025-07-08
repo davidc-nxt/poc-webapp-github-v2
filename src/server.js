@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
   } else if (url.pathname === '/') {
     res.writeHead(200);
     res.end(JSON.stringify({ 
-      message: 'GitOps POC - GITHUB Platform',
+      message: 'GitOps POC - GITHUB Platform 🚀 Test Deployment',
       platform: platform,
       environment: process.env.NODE_ENV || 'production',
       version: process.env.APP_VERSION || '1.0.0',
